@@ -1,0 +1,38 @@
+# dies ist der Ausganspunkt des CLI Programms Risiko
+
+# importe:
+
+
+# List mit allen Spielern in richtiger Reihenfolge
+spielerListe = [] 
+
+def validierterInput(hilfeText):
+    # lässt den Benutzer etwas eingeben und prüft diese Eingabe
+    # wenn die Eingabe nicht das anzeigen des Spielstands erfordert, wird sie zurückgegeben
+    pass
+
+
+def spielVorbereiten():
+    # fügt alle Spieler zur Spielerliste hinzu
+    # verteilt die Gebiete
+    # verteilt die Truppen
+    # legt die Spielerreihenfolge fest   
+    pass 
+
+
+def spielen():
+    # solange die Funktion gewinnerGefunden False zurück gibt:
+         # lässt Spieler Truppen platzieren
+         # lässt Spieler angreifen
+         # lässt Spieler Truppen bewegen
+    # ansonsten ehrt es den Gewinner was das Spiel beendet
+    pass  
+
+
+def main():
+    # die erste Funktion die ausgeführt wird, wenn das Programm startet
+    pass
+
+main()          
+    
+  
