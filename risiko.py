@@ -1,6 +1,7 @@
 # dies ist der Ausganspunkt des CLI Programms Risiko
 
 # importe:
+from spielStand import spielStand
 
 
 # List mit allen Spielern in richtiger Reihenfolge
@@ -9,14 +10,21 @@ spielerListe = []
 def validierterInput(hilfeText):
     # lässt den Benutzer etwas eingeben und prüft diese Eingabe
     # wenn die Eingabe nicht das anzeigen des Spielstands erfordert, wird sie zurückgegeben
-    pass
+    text = input(hilfeText)
+    if text == "Spielstand":
+        spielStand()
+        validierterInput(hilfeText)
+    else:
+        return text
 
 
 def spielVorbereiten():
+    spielerZahl = input("Gib die Spielerzahl ein: ")
     # fügt alle Spieler zur Spielerliste hinzu
     # verteilt die Gebiete
     # verteilt die Truppen
-    # legt die Spielerreihenfolge fest   
+    # legt die Spielerreihenfolge fest  
+     
     pass 
 
 
@@ -35,4 +43,3 @@ def main():
 
 main()          
     
-  
