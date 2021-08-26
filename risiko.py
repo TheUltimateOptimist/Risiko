@@ -2,6 +2,7 @@
 
 # importe:
 from spielStand import spielStand
+import spielfeld
 
 
 # List mit allen Spielern in richtiger Reihenfolge
@@ -19,7 +20,13 @@ def validierterInput(hilfeText):
 
 
 def spielVorbereiten():
-    spielerZahl = input("Gib die Spielerzahl ein: ")
+    spielerZahl = int(input("Gib die Spielerzahl(2-6) ein: "))
+    spielerDaten = []
+
+    for i in range(spielerZahl):
+        spielerName = input(f"Name von Spieler {i}: ")
+        
+        spielerListe.append()
     # fügt alle Spieler zur Spielerliste hinzu
     # verteilt die Gebiete
     # verteilt die Truppen
